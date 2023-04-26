@@ -6,8 +6,6 @@
 #emb1 {
     width: 100vw;
     height: 100vh;
-    min-height: 100%;
-    overflow-y: auto;
 }
 
 figure {
@@ -31,7 +29,7 @@ body {
     width: 80vw;
     position: sticky;
     margin: 120px 0 0 0;
-    min-height: calc(100vh - 120px);
+    min-height: calc(100vh - 180px);
     /* 70px is the height of the top navigation bar */
     display: flex;
     justify-content: center;
@@ -85,6 +83,9 @@ body {
     align-items: top;
 }
 
+footer {
+    height: 3em;
+}
 /* Styles for desktop devices */
 @media screen and (min-width: 992px) {}
 
