@@ -4,8 +4,13 @@
 }
 
 #emb1 {
-    width: 100%;
+/*    width: 100%;
     height: auto;
+    min-height: 100%;
+    overflow-y: auto;
+*/
+    width: 75vw;
+    height: 100vh;
     min-height: 100%;
     overflow-y: auto;
 }
@@ -16,7 +21,7 @@ figure {
 }
 
 .content {
-    min-width: 80vw;
+    width: 80vw;
     min-height: calc(100vh - 120px);
     /* 70px is the height of the top navigation bar */
     display: flex;
@@ -24,14 +29,17 @@ figure {
     align-items: center;
 }
 
+.top-navigation *{
+    margin: 0;
+}
 .top-navigation {
+    position: sticky;
+    background-color: rgba(10, 150, 90, 1);
     height: 120px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    margin: 0;
+    border: 0;
+    padding: 5;
     z-index: 9999;
-    background-color: rgba(10, 150, 90, 0.3);
 }
 
 .partners {
