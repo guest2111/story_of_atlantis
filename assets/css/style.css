@@ -16,12 +16,21 @@
 }
 
 figure {
-    width: 80%;
-    margin-right: 20px;
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+figure img {
+    max-width: 100%;
+    height: auto;
+  }
 
+body {
+    margin: 0;
+}
 .content {
     width: 80vw;
+    top: 120px;
     min-height: calc(100vh - 120px);
     /* 70px is the height of the top navigation bar */
     display: flex;
@@ -33,7 +42,8 @@ figure {
     margin: 0;
 }
 .top-navigation {
-    position: sticky;
+    position: fixed;
+    width: 100vw;
     background-color: rgba(10, 150, 90, 1);
     height: 120px;
     margin: 0;
@@ -44,7 +54,7 @@ figure {
 
 .partners {
     position: fixed;
-    top: 0;
+    top: 120px;
     right: 0;
     width: 20vw;
     max-width: 250px;
