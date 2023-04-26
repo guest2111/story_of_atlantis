@@ -13,6 +13,9 @@
 figure {
     margin: 0;
     padding: 0;
+    position: fixed;
+    top: 120px;
+    opacity: 0.25;
   }
   
 figure img {
