@@ -19,18 +19,19 @@
 </head>
 
 <body>
-    <h1> Stories of Atlantis</h1>
     <!-- top navigation bar -->
-    <nav>
+    <nav class="top-navigation">
+        <h1> Stories of Atlantis</h1>
         <ul>
             <button name="embedded" value="/html/home.html" onclick="set_story(this.value)" class="choice__button">
                 <span>home</span>
             </button>
             <button name="embedded" value="/html/traders.html" onclick="set_story(this.value)" class="choice__button">
                 <span>traders</span>
+            </button><button name="embedded" value="/html/contribute.html" onclick="set_story(this.value)"
+                class="choice__button">
+                <span>Contribute</span>
             </button>
-
-            <li> Contribute </li>
         </ul>
     </nav>
     <!-- right navigation bar, if needed -->
@@ -47,7 +48,7 @@
         </section>
     </section>
     <section class="content">
-        <object id="emb1" name="embedded1" data="/html/home.html" width="1600" height="400">
+        <object id="emb1" name="embedded1" data="/html/home.html" width="100%" height="100%">
             Error: Embedded data could not be displayed.
         </object>
     </section>
