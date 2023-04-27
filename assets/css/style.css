@@ -47,17 +47,22 @@ body {
     position: fixed;
     top: 120px;
     right: 0;
-    width: 20vw;
+    width: 16vw;
     /* max-width: 250px; */
     height: 100%;
     background-color: #e1e1e1;
-    padding: 0px;
+    padding: 2vw;
+    text-align: left;
 }
-.partners li {
+.partners a {
     padding: 20px;
+    height: 6em;
+    /*! width: 101em; */
+    display: block;
 }
-.partners img {
-    width: 10vw;
+.partners img, .partners svg {
+    width: 90%;
+    height: auto;
 }
 
 .captions {
@@ -69,7 +74,7 @@ body {
 }
 
 .story_nocap {
-    width: calc(100vw - 60px);
+    width: calc(100vw -8vw - 60px);
     /* height: 98%; */
     /* height: calc(100% - 60px); */
     height: calc(100vh - 60px);
@@ -93,11 +98,11 @@ body {
     padding: 0;
     position: fixed;
     top: 0px;
-    opacity: 0.25;
+    opacity: 0.2;
     width: 100%;
     /* z-index: 1; */
     z-index: 9999;
-    pointer-events: none; /* This will allow clicking on elements behind the figure */
+    pointer-events: none; /* This will allow scrolling on elements behind the figure */
   
   }
   
