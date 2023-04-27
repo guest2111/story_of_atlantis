@@ -39,7 +39,7 @@ body {
     margin: 0;
     top: 0;
     border: 0;
-    padding: 5;
+    padding: 5px;
     z-index: 9999;
 }
 
@@ -68,15 +68,12 @@ body {
 .captions {
     width: 20vw;
     flex: 1;
-    text-align: left top;
     position: sticky;
     top: 0;
 }
 
 .story_nocap {
-    width: calc(100vw -8vw - 60px);
-    /* height: 98%; */
-    /* height: calc(100% - 60px); */
+    width: calc(100vw - 60px);
     height: calc(100vh - 60px);
     text-align: left;
     overflow-y: scroll;
@@ -193,7 +190,7 @@ input[type=radio] {
   margin: 0;
   top: 0;
   border: 0;
-  padding: 5;
+  padding: 5px;
   z-index: 9999;
   display: flex;
   justify-content: space-between;
