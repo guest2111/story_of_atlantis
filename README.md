@@ -51,9 +51,14 @@ https://validator.w3.org/#validate_by_input
 # issues
 
 ## Bugs:
+
+### solved
+1. Links were not all working.
+2. I noticed, those where working which did not start from root directory ('/'), but locally and by that on referenced pages it was necessary to navigate first upwards in directory and the to the target: '../assets/css/style.css'
+
+### open
 1. between screen width 630 and 960 the background image in traders is jumping away from left side bar.
 2. but 1. appears on zooming as well
-3. git hub pages can not follow links
 
 ## Future improvements:
 1. In case of many storys, the buttons must appear to be scrollable or positioned more flexible.
