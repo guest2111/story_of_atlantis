@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, inliial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Atlantis</title>
-    <script type="text/javascript">
-
+    <script>
         function set_story(html) {
             var ifr = document.getElementById("emb1");
             console.log("set value of " + ifr + " to " + html);
@@ -22,7 +21,7 @@
     <!-- top navigation bar -->
     <nav class="top-navigation">
         <h1> Stories of Atlantis </h1>
-        <ul>
+        <div class="top-buttons">
             <button name="embedded" value="/html/home.html" onclick="set_story(this.value)" class="choice__button">
                 <span>home</span>
             </button>
@@ -32,7 +31,7 @@
                 class="choice__button">
                 <span>Contribute</span>
             </button>
-        </ul>
+        </div>
     </nav>
     <!-- right navigation bar, if needed -->
     <section class="partners">
@@ -63,11 +62,11 @@
     <!-- <div class="testcontent">
         <div class="testembedded"></div>
     </div>  -->
-    <section class="content">
-        <object id="emb1" name="embedded1" data="/html/home.html" width="100%" height="100vh">
+    <div class="content">
+        <object id="emb1" name="embedded1" data="/html/home.html">
             Error: Embedded data could not be displayed.
         </object>
-    </section>
+    </div>
     <footer>
         Copyright, Legal Notice, Please feel free to give professional advice. I am an engineer and not a lawyer.
     </footer>

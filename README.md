@@ -1,3 +1,20 @@
+
+
+style.css checked by
+https://jigsaw.w3.org/css-validator/#validate_by_input
+
+html files checked by
+https://validator.w3.org/#validate_by_input
+
+Bugs:
+1. between screen width 630 and 960 the background image in traders is jumping away from left side bar.
+
+Future improvements:
+1. In case of many storys, the buttons must appear to be scrollable or positioned more flexible.
+
+============== original by school: ==============
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome,
@@ -37,3 +54,4 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ---
 
 Happy coding!
+
