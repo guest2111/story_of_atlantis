@@ -13,7 +13,6 @@
             console.log("set value of " + ifr + " to " + html);
             ifr.setAttribute('data', html);
         }
-
     </script>
 </head>
 
@@ -23,10 +22,12 @@
         <h1> Stories of Atlantis </h1>
         <div class="top-buttons">
             <button name="embedded" value="html/home.html" onclick="set_story(this.value)" class="choice__button">
-                <span>home</span>
+                <span>Home</span>
             </button>
             <button name="embedded" value="html/traders.html" onclick="set_story(this.value)" class="choice__button">
-                <span>traders</span>
+                <span>Traders</span>
+                <button name="embedded" value="https://en.wikipedia.org/wiki/Atlantis" onclick="set_story(this.value)" class="choice__button">
+                    <span>Wikipedia</span>
             </button><button name="embedded" value="html/contribute.html" onclick="set_story(this.value)"
                 class="choice__button">
                 <span>Contribute</span>
@@ -35,16 +36,6 @@
     </nav>
     <!-- right navigation bar, if needed -->
     <section class="partners">
-        <!--<h2 class="no-tablets"> Place for partners and advertising / references </h2>
-        <section class="partner-items">
-            P1
-        </section>
-        <section class="partner-items">
-            P2
-        </section>
-        <section class="partner-items">
-            P3
-        </section> -->
         <h2>Our Partners</h2>
         <a href="https://codeinstitute.net/" target="_blank" aria-label="Partner 1 - codeinstitute.net">
             <img src="https://codeinstitute.net/de/wp-content/themes/codeinstitute/img/svg/Code_logo_grey_fit.svg" alt="Partner 1 - codeinstitute.net">
