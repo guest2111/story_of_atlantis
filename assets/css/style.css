@@ -151,7 +151,6 @@ body {
     top: 0px;
     opacity: 0.2;
     width: 100%;
-    /* z-index: 1; */
     z-index: 5;
     pointer-events: none; /* This will allow scrolling on elements behind the figure */
   
@@ -163,6 +162,11 @@ body {
     z-index: 1;
   }
 
+#backgroundHome {
+  left: 15px;
+  top: 15px;
+  width: calc(100% - 30px);
+}
 
 .grid-container {
     display: flex;
