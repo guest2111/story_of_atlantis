@@ -119,6 +119,22 @@ body {
     padding: 15px;
 }
 
+.pictureSidebar {
+  float: right;
+  clear: right;
+  max-width: 300px;
+  z-index: 9;
+  position: sticky;
+  font-size: 12px;
+}
+
+.pictureBundle {
+  margin: 5px;
+}
+
+.pictureBundle > img {
+  width: 100%;
+}
 .story {
     width: 80vw;
     flex: 4;
@@ -136,7 +152,7 @@ body {
     opacity: 0.2;
     width: 100%;
     /* z-index: 1; */
-    z-index: 9999;
+    z-index: 5;
     pointer-events: none; /* This will allow scrolling on elements behind the figure */
   
   }
