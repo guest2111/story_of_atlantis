@@ -124,14 +124,15 @@ body {
 .pictureSidebar {
   float: right;
   clear: right;
-  max-width: 300px;
+  max-width: 500px;
   z-index: 9;
   position: sticky;
   font-size: 12px;
 }
 
 .pictureBundle {
-  margin: 5px;
+  margin: 5px 5px 10px;
+  background-color: #e8ebee;
 }
 
 .pictureBundle > img {
@@ -287,6 +288,9 @@ input[type=radio] {
   .story_position {
     padding: 12px;
 }
+.pictureSidebar {
+  max-width: 380px;
+}
 }
 
 /* Styles for mobile devices */
@@ -307,5 +311,13 @@ input[type=radio] {
   }
   .story_position {
     padding: 8px;
+}
+.pictureSidebar {
+  /* max-width: 100%; */
+  display: flex;
+  flex-direction: column;
+}
+.pictureSidebar {
+  max-width: 100%;
 }
 }
