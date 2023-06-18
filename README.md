@@ -1,3 +1,24 @@
+
+ * [Stories of Atlantis](#stories-of-atlantis)
+ * [Features](#features)
+ * [Testing](#testing)
+   * [Browers](#browers)
+   * [on small phone](#on-random-wide-screen)
+   * [ipad](#ipad)
+   * [on random wide screen](#on-random-wide-screen)
+   * [zoomed on desktop pc](#zoomed-on-desktop-pc)
+   * [Spelling Check](#spelling-check)
+   * [Lighthouse Approved](#lighthouse-approved)
+ * [Issues](#issues)
+   * [Bugs](#bugs)
+     * [Solved](#solved)
+     * [Open](#open)
+   * [Future Improvements](#future-improvements)
+ * [Codeanywhere Reminders](#codeanywhere-reminders)
+ * [Sources](#sources)
+   * [Media](#media)
+   * [Code](#code)
+
 # Stories of Atlantis
 
 The webpage is intended to collect various webpages, which try to explain the history of Atlantis. People can contribute their own webpage to be displayed on this host webpage. One can navigate through the buttons on the top navigation bar. 
@@ -15,12 +36,11 @@ The last button opens a page where to give ones own story and by that contribute
 
 The right side holds space for partners as references, where to go for building websites or just some distraction.
 
-# tested
+# Testing
 
 ## browers:
 Firefox 112.0.2 (64-bit) on 5.19.0-41-generic #42~22.04.1-Ubuntu with KDE
 Ecosia on Android 11, kernel 4.19.157-perf+
-
 
 ## on small phone: 			
 ![image](https://user-images.githubusercontent.com/93140389/235036933-f3c56b23-1fc0-44d3-9f82-8100680d1b70.png)
@@ -37,7 +57,7 @@ on Fairphone with Ecosia:
 ## zoomed on desktop pc:
 ![image](https://user-images.githubusercontent.com/93140389/235037082-9e55c28a-d4b4-4205-b5a2-5b0d86d601f1.png)
 
-## spelling check
+## Spelling Check
 
 style.css checked by
 https://jigsaw.w3.org/css-validator/#validate_by_input
@@ -45,7 +65,7 @@ https://jigsaw.w3.org/css-validator/#validate_by_input
 html files checked by
 https://validator.w3.org/#validate_by_input
 
-# lighthouse approved:
+# Lighthouse Approved:
 ![image](https://user-images.githubusercontent.com/93140389/235037108-577e97b8-d3ed-4648-b1ff-2be77fd98962.png)
 
 # issues
@@ -73,6 +93,41 @@ Welcome,
 This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+
+# Sources
+
+## Media
+
+### Referenced
+
+- https://codeinstitute.net/de/wp-content/themes/codeinstitute/img/svg/Code_logo_grey_fit.svg
+
+- https://www.webfx.com/archive/assets/global/img/header/webfx-logo.png
+
+- http://www.w3.org/2000/svg
+
+- https://porenhub.de/img/porenhublogo4.gif
+
+- https://img.freepik.com/free-vector/city-landmarks-background-video-conferencing_23-2148635775.jpg?w=2000&t=st=1682418883~exp=1682419483~hmac=809b46ef3442856d753d7eb17fcda789fbd88e433bbfd59ccef29a761f7655d9
+
+- https://img.freepik.com/premium-photo/greece-santorini-island-iconic-view-with-blue-churches-oia-village_287743-185.jpg?w=2000
+
+### Downloaded into source files
+
+- https://de.freepik.com/fotos-kostenlos/taj-lake-palace-in-udaipur-rajasthan-indien_3540095.htm#page=2&query=ancient%20city%20on%20water&position=4&from_view=search&track=ais
+
+- https://de.freepik.com/fotos-kostenlos/hausboot_1278009.htm#query=wooden%20house%20on%20water&position=48&from_view=search&track=ais
+
+- https://de.freepik.com/fotos-kostenlos/schoene-aufnahme-eines-kleinen-dorfes-umgeben-von-einem-see-und-schneebedeckten-huegeln_13005858.htm#query=wooden%20house%20on%20water&position=26&from_view=search&track=ais
+
+- https://de.freepik.com/fotos-premium/ein-see-mit-einem-dock-und-einem-berg-im-hintergrund_44867410.htm#query=houseboot&position=45&from_view=search&track=ais?sign-up=google
+
+- https://de.freepik.com/fotos-premium/ein-bootshaus-am-wasser-mit-bergen-im-hintergrund_44737994.htm#query=houseboot&position=42&from_view=search&track=ais
+
+- https://de.freepik.com/fotos-premium/antike-unterwasserstadt-in-den-tiefen-des-ozeans-atlantis-verlorene-welt-ki_36269755.htm#query=atlantis&position=7&from_view=search&track=sph
+
+
+## Code
 
 ## Codeanywhere Reminders
 
