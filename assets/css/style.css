@@ -114,6 +114,7 @@ body {
   flex: 1;
   position: sticky;
   top: 0;
+  padding: 20px;
 }
 
 .story_nocap {
