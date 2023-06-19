@@ -101,6 +101,25 @@ The performance decreased because of not downscaled pictures. But this does not 
 1. In case of many storys, the buttons must appear to be scrollable or positioned more flexible.
 2. Giving visual response as indicator on which story page the visitor is - maybe giving a colored border around the button.
 
+
+# Deployment & Local Development 
+
+## Deployment 
+
+- the project is available on GitHub [link to github projes](https://github.com/guest2111/story_of_atlantis)
+
+- a running example is on GitHub-Pages: [link to github pages](https://guest2111.github.io/story_of_atlantis/)
+
+## Local Development 
+
+- download the source code 
+  - via the grafical user interface on GitHub [How to download](/docu/download_sources.png)
+  - via command line with git: `git clone https://github.com/guest2111/quiz_of_trees`
+    - for more details read documentations, eg. [2.1 Git Basics - Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
+- run `python3 -m http.server` on your local terminal in the downloaded projects main folder (where the 'index.html' is located)
+- open the website on your pc on your web browser: [localhost:8000](localhost:8000)
+- or use open it on your phone: `<your-local-network-ip-adress>:8000`
+
 # Sources
 
 ## Media
@@ -151,23 +170,5 @@ So I searched for replacement elements and found the `obj`:
 
 which can be read in detail: [developer.mozilla.org/../object](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object)
 
-
-# Deployment & Local Development 
-
-## Deployment 
-
-- the project is available on GitHub [link to github projes](https://github.com/guest2111/story_of_atlantis)
-
-- a running example is on GitHub-Pages: [link to github pages](https://guest2111.github.io/story_of_atlantis/)
-
-## Local Development 
-
-- download the source code 
-  - via the grafical user interface on GitHub [How to download](/docu/download_sources.png)
-  - via command line with git: `git clone https://github.com/guest2111/quiz_of_trees`
-    - for more details read documentations, eg. [2.1 Git Basics - Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
-- run `python3 -m http.server` on your local terminal in the downloaded projects main folder (where the 'index.html' is located)
-- open the website on your pc on your web browser: [localhost:8000](localhost:8000)
-- or use open it on your phone: `<your-local-network-ip-adress>:8000`
 
 [<font size = 4> `toc` </font>](#table-of-content)
