@@ -49,7 +49,7 @@ Firefox 112.0.2 (64-bit) on 5.19.0-41-generic #42~22.04.1-Ubuntu with KDE
 Ecosia on Android 11, kernel 4.19.157-perf+
 
 ## on small phone: 			
-![image](https://user-images.githubusercontent.com/93140389/235036933-f3c56b23-1fc0-44d3-9f82-8100680d1b70.png)
+![image](/docu/localhost_8000_(Samsung%20Galaxy%20S20%20Ultra).png)
 
 on Fairphone with Ecosia:
 ![image](https://user-images.githubusercontent.com/93140389/235036969-58348e39-b191-4bf0-be2c-f304c47da8a1.png)
@@ -61,18 +61,26 @@ on Fairphone with Ecosia:
 ![image](https://user-images.githubusercontent.com/93140389/235037065-327941cb-d804-43dd-a22b-ccfbffda23dc.png)
 
 ## zoomed on desktop pc:
-![image](https://user-images.githubusercontent.com/93140389/235037082-9e55c28a-d4b4-4205-b5a2-5b0d86d601f1.png)
+![image](/docu/fullscreen_zoomed.png)
+
+## desktop pc switched to 'wikipedia' subpage
+![image](/docu/fullscreen_external_website.png)
 
 ## Spelling Check
 
 style.css checked by
 https://jigsaw.w3.org/css-validator/#validate_by_input
 
-html files checked by
+html files (excluding external page) checked by 
 https://validator.w3.org/#validate_by_input
 
 # Lighthouse Approved:
+
 ![image](https://user-images.githubusercontent.com/93140389/235037108-577e97b8-d3ed-4648-b1ff-2be77fd98962.png)
+
+![lighthouse traders](/docu/lighthouse_traders.png)
+
+The performance decreased because of not downscaled pictures. But this does not remove the possibility to zoom into pictures.
 
 # issues
 
@@ -81,6 +89,9 @@ https://validator.w3.org/#validate_by_input
 ### solved
 1. Links were not all working.
 2. I noticed, those where working which did not start from root directory ('/'), but locally and by that on referenced pages it was necessary to navigate first upwards in directory and the to the target: '../assets/css/style.css'
+3. On wide screen the icons of partners could overlap because the image size was repsonsive although the wrapping element had a fixed height. As solution I removed the fixed height and added a margin to give space to each other.
+
+ ![bug appearance](/docu/bug_wide_screen.png) ![bug fixed](/docu/bug_wide_screen_fixed.png) 
 
 ### open
 1. between screen width 630 and 960 the background image in traders is jumping away from left side bar.
@@ -88,17 +99,7 @@ https://validator.w3.org/#validate_by_input
 
 ## Future improvements:
 1. In case of many storys, the buttons must appear to be scrollable or positioned more flexible.
-
-#============== original by school: ==============
-
-
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+2. Giving visual response as indicator on which story page the visitor is - maybe giving a colored border around the button.
 
 # Sources
 
@@ -170,35 +171,3 @@ which can be read in detail: [developer.mozilla.org/../object](https://developer
 - or use open it on your phone: `<your-local-network-ip-adress>:8000`
 
 [<font size = 4> `toc` </font>](#table-of-content)
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
