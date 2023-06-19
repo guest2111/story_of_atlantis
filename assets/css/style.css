@@ -98,8 +98,7 @@ body {
 
 .partners a {
   padding: 20px;
-  height: 6em;
-  /*! width: 101em; */
+  margin: 1em 0;
   display: block;
 }
 
